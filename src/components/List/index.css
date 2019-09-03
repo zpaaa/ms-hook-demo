@@ -1,0 +1,7 @@
+.app-container {
+    display: flex;
+}
+.tabber-view .ant-menu{
+    width: 300px;
+    min-height: 100vh
+}
