@@ -1,4 +1,4 @@
-import request from '..//utils/request'
+import request from '../utils/request'
 /* 读取所有播放列表 */
 export function getLists (limit=20) {
   return request({

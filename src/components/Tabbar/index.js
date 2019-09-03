@@ -10,10 +10,10 @@ class Tabbar extends Component {
 				className='tabbar-container'
 				selectedKeys={[path]}>
 				<Menu.Item key="/">
-					<Link to='/'>list</Link>
+					<Link to='/'>医生名单</Link>
 				</Menu.Item>
 				<Menu.Item key="/chart">
-					<Link to='/chart'>chart</Link>
+					<Link to='/chart'>分析</Link>
 				</Menu.Item>
 			</Menu>
 		)
