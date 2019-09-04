@@ -1,0 +1,28 @@
+.tabel {
+  width: 100%;
+}
+
+.head {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #eee
+}
+
+p {
+  padding: 0 20px;
+  margin: 0
+}
+
+.card-view {
+  background: #ECECEC;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around
+}
+
+.card-view .avatar {
+  height: 80px
+}

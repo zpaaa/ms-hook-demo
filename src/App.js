@@ -2,6 +2,7 @@ import React from 'react';
 import {BrowserRouter, Route, Switch } from 'react-router-dom'
 import List from './components/List'
 import Error from './components/Error'
+import './index.css';
 function App() {
   return (
     <div className="App">

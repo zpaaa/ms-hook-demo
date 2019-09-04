@@ -7,6 +7,7 @@ class Tabbar extends Component {
 		const path = createBrowserHistory().location.pathname
 		return (
 			<Menu
+				theme="dark"
 				className='tabbar-container'
 				selectedKeys={[path]}>
 				<Menu.Item key="/">
